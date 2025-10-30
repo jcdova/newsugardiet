@@ -1,0 +1,38 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Random Meal Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="card" role="region" aria-label="Random Meal generator">
+        <h1>🍽️ Random Meal Generator</h1>
+        <p class="lead">
+          Click a button to get a random <strong>Breakfast</strong>,
+          <strong>Lunch</strong>, or <strong>Dinner</strong> idea.
+        </p>
+
+        <div class="display" aria-live="polite">
+          <div id="mealType" class="meal-type">—</div>
+          <div id="mealText" class="meal-text">Click a button to start!</div>
+        </div>
+
+        <div class="controls">
+          <button id="breakfastBtn" class="btn btn-breakfast">
+            🥞 Breakfast
+          </button>
+          <button id="lunchBtn" class="btn btn-lunch">🥗 Lunch</button>
+          <button id="dinnerBtn" class="btn btn-dinner">🍛 Dinner</button>
+        </div>
+
+        <div class="footer">Healthy meal ideas — No Sugar Challenge</div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
