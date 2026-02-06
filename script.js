@@ -1,25 +1,26 @@
 // script.js
 const breakfastOptions = [
   'Scrambled eggs with avocado',
-  'Frittata with spinach and mushrooms',
+  'Egg with spinach',
   'Greek yogurt with chia seeds and berries',
-  'Baked eggs with tomatoes and herbs',
+  'Hard boiled eggs with tomatoes and herbs',
   'Smoothie with almond milk, spinach, and flaxseeds',
   'Oatmeal with nuts and berries',
   'Omelette with cheese and bell peppers',
   'Cottage cheese with almonds and strawberries',
-  'Boiled eggs on whole-grain toast',
-  'Green smoothie with banana and almond butter',
+  'Hard boiled eggs on whole-grain toast',
+  'Quiche with spinach and feta',
   'Pancakes with almond flour and blueberries',
-  'Egg muffins with spinach and feta',
-  'Greek yogurt with flaxseeds and pumpkin',
-  'Boiled eggs with avocado and salsa',
-  'Chia pudding with almond milk and berries',
+  'Egg with spinach and feta cheese',
+  'Greek yogurt with flaxseeds and pumpkin seeds',
+  'Hard boiled eggs with avocado and salsa',
+  'Greek yogurt with almond milk and berries',
   'Turkey and egg breakfast wrap',
   'Apple slices with almond butter and cinnamon',
-  'Fried eggs with spinach and tomatoes',
+  'Scrambbled eggs with spinach and tomatoes',
   'Cream of Wheat with nuts and seeds',
-  'Grilled mushrooms with eggs and avocado',
+  'Cailifower hashbrowns with eggs',
+  'Cheery beet Smoothie with, coconut milk, banana and cinnamon',
 ];
 
 const lunchOptions = [
@@ -94,7 +95,7 @@ function animateMeal() {
 }
 
 breakfastBtn.addEventListener('click', () =>
-  showMeal('Breakfast', breakfastOptions)
+  showMeal('Breakfast', breakfastOptions),
 );
 lunchBtn.addEventListener('click', () => showMeal('Lunch', lunchOptions));
 dinnerBtn.addEventListener('click', () => showMeal('Dinner', dinnerOptions));
